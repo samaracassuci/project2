@@ -1,0 +1,95 @@
+body {
+background-color: #71905C;
+font-family: Verdana;
+}
+
+
+    #main {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+#header {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+text-align: center;
+font-size: 30px;
+height: 180px;
+background: #FFFFE5;
+color: black;
+}
+    
+h1 {
+margin-top: 20px;
+text-align: center;
+font-family: Garamond; 
+}
+
+label {
+display: inline-block;
+}
+
+
+p {
+	text-align: left;
+	padding-left: 40px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.word {
+  text-align:center;
+}
+
+button {
+width: 100px;
+margin-top: 20px;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input:checked + img {
+  border:2px solid #32CD32;
+}
+
+.answer {
+	display: inline-block;
+	max-width: 35%;
+	padding: 1% 5%;
+}
+
+form {
+   text-align: center;
+}
+
+button {
+	display: block;
+	width: 100%;
+	background-color: black;
+	color: white;
+	height: 3em;
+	font-size: 1em;
+	font-weight: bold;
+	border: none;
+}
+
+button:hover {
+	background-color: green;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}

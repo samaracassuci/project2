@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Which Brazilian Food Should You Try? </title>
+    <link href="bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="quiz.css" text="text/css">
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+</head>
+<body>
+
+<div id="main">
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Which Brazilian Food Should You Try?</h1>
+  </div>
+</div>
+
+	<form id="form1">
+
+		<p>Which type(s) of food do you prefer?</p>
+			<div class="answer">
+			<label><input type="checkbox" name="food" value="savory" id="savory"/><img src="savory.png">
+			<div class="word">Savory</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="checkbox" name="food" value="sweet" id="sweet"/><img src="sweet.png">
+			<div class="word">sweet</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="checkbox" name="food" value="cold" id="cold"/><img src="cold.png">
+			<div class="word">Cold</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="checkbox" name="food" value="hot" id="hot"/><img src="hot.png">
+			<div class="word">Hot</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="checkbox" name="food" value="savory" id="savory"/><img src="chips.png">
+			<div class="word">Crunchy</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="checkbox" name="food" value="savory" id="savory"/><img src="soft.png">
+			<div class="word">Soft</div></label>
+			</div>
+
+		<p>Pick a time of the day:</p>
+			<div class="answer">
+			<label><input type="radio" name="time" id=morning value=feijoada /><img src="morning.png">
+			<div class="word">Sunrise</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="time" id=evening value=pao /><img src="evening.png">
+			<div class="word">evening</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="time" id=afternoon value=brigadeiro /><img src="afternoon.png">
+			<div class="word">Afternoon</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="time" id=sunset value=pastel /><img src="sunset.png">
+			<div class="word">Sunset</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="time" id=night value=coxinha /><img src="night.png">
+			<div class="word">Night</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="time" id=midnight value=requeijao /><img src="midnight.png">
+			<div class="word">Midnight</div></label>
+			</div>
+
+		<p>What's your favorite color?</p>
+			<div class="answer">
+			<label><input type="radio" name="color" id=green value="requeijao" /><img src="green.png"><div class="word">Green</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="color" id=blue value="coxinha" /><img src="blue.png"><div class="word">Blue</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="color" id=yellow value="pastel" /><img src="yellow.png"><div class="word">Yellow</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="color" id=black value="brigadeiro" /><img src="black.png"><div class="word">Black</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="color" id=red value="pao" /><img src="red.png"><div class="word">Red</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="color" id=brown value="feijoada" /><img src="brown.png"><div class="word">Brown</div></label>
+			</div>
+
+		<p>Pick a beverage:</p>
+			<div class="answer">
+			<label><input type="radio" name="drink" id=coffee value="coxinha" /><img src="coffee.png"><div class="word">Coffee</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="drink" id=soda value="brigadeiro" /><img src="soda.png"><div class="word">Soda</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="drink" id=juice value="requeijao" /><img src="juice.png"><div class="word">Natural Juice</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="drink" id=tea value="feijoada" /><img src="tea.png"><div class="word">Tea</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="drink" id=water value="pastel" /><img src="water.png"><div class="word">Water</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="drink" id=cocktail value="pao" /><img src="cocktail.png"><div class="word">Cocktails</div></label>
+			</div>
+
+		<p>Pick a brazilian internet laugh:</p>
+			<div class="answer">
+			<label><input type="radio" name="laugh" id=kk value="pastel" /><img src="kk.png"><div class="word">kkkkkk</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="laugh" id=rs value="requeijao" /><img src="rs.png"><div class="word">rsrsrs</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="laugh" id=hue value="coxinha" /><img src="hue.png"><div class="word">huehuehue</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="laugh" id=asjk value="pao" /><img src="jsk.png"><div class="word">asjkajks</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="laugh" id=hehe value="feijoada" /><img src="hehe.png"><div class="word">hehehehe</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="laugh" id=keke value="brigadeiro" /><img src="keke.png"><div class="word">kekeke</div></label>
+			</div>
+	
+		<p>Pick a meal:</p>
+			<div class="answer">
+			<label><input type="radio" name="meal" id=lunch value="pao" /><img src="lunch.png"><div class="word">Lunch</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="meal" id=dinner value="feijoada" /><img src="dinner.png"><div class="word">Dinner</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="meal" id="snack" value ="brigadeiro" /><img src="snack.png"><div class="word">Snack</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="meal" id=breakfast value="pastel" /><img src="breakfast.png"><div class="word">Breakfast</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="meal" id=brunch value="requeijao" /><img src="brunch.png"><div class="word">Brunch</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="meal" id=supper value="coxinha" /><img src="supper.png"><div class="word">Supper</div></label>
+			</div>
+	
+		<p>Pick an animal:</p>
+			<div class="answer">
+			<label><input type="radio" name="animal" id=capybara value="brigadeiro" /><img src="capybara.png"><div class="word">Capybara</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="animal" id=dog value="pastel" /><img src="dog.png"><div class="word">Dog</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="animal" id=cow value="feijoada" /><img src="cow.png"><div class="word">Cow</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="animal" id=cat value="coxinha" /><img src="cat.png"><div class="word">Cat</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="animal" id=bunny value="pao" /><img src="bunny.png"><div class="word">Bunny</div></label>
+			</div>
+			<div class="answer">
+			<label><input type="radio" name="animal" id=bird value="requeijao" /><img src="bird.png"><div class="word">Bird</div></label>
+			</div>
+
+		<button type="submit" value="Submit">Submit</button>
+<div class= "answersection">
+<h1 id="answer"></h1>
+<h1 id="answer2"></h1>
+<h1 id="answer3"></h1>
+<h1 id="answer4"></h1>
+<h1 id="answer5"></h1>
+<h1 id="answer6"></h1>
+<h1 id="answer7"></h1>
+</div>
+	</form>
+</div>
+
+<script>
+
+document.getElementById("form1").onsubmit=function() {
+	       time = document.querySelector('input[name = "time"]:checked').value;
+		   color = document.querySelector('input[name = "time"]:checked').value;
+		   drink = document.querySelector('input[name = "time"]:checked').value;
+		   laugh = document.querySelector('input[name = "laugh"]:checked').value;
+		   meal = document.querySelector('input[name = "meal"]:checked').value;
+		   animal = document.querySelector('input[name = "animal"]:checked').value;
+
+	  
+	  feijoada = 0;
+	  pao = 0;
+	  brigadeiro = 0;
+	  pastel = 0;
+	  coxinha = 0;
+	  requeijao = 0;
+	  
+	
+	  function eachscore(x){
+	  if(x == "feijoada") { feijoada = feijoada + 1}
+	  if(x == "pao") { pao = pao + 1}
+	  if(x == "brigadeiro") { brigadeiro = brigadeiro + 1}
+	  if(x == "pastel") { pastel = pastel + 1}
+	  if(x == "coxinha") { coxinha = coxinha + 1}
+	  if(x == "requeijao") { requeijao = requeijao + 1}
+	  }
+	  
+	  
+	  
+	  eachscore(eval("time"));
+	  eachscore(eval("color"));
+	  eachscore(eval("drink"));
+	  eachscore(eval("laugh"));
+	  eachscore(eval("meal"));
+	  eachscore(eval("animal"));
+	  
+	  
+	  
+	  all = [feijoada, pao, brigadeiro, pastel, coxinha, requeijao];
+	  
+	
+	maxscore = Math.max.apply(Math,all);
+	
+    
+	for(i=0; i<all.length; i++) {
+	if(all[i]==maxscore) {
+	highest = i;
+	}
+	}
+	
+
+	
+scores = [{index:0, feedback: "You got Feijoada! </br> Check out the recipe: </br> <a href='https://www.curiouscuisiniere.com/feijoada-brazilian-black-bean-stew/' target='_blank'><img src='feijoada.jpeg' class='responsive'></a>" },
+{index:1, feedback: "You got Pao de Queijo! </br> Check out the recipe: </br> <a href='https://www.allrecipes.com/recipe/98554/brazilian-cheese-bread-pao-de-queijo/' target='_blank'><img src='pao.jpg' class='responsive'></a>"},
+{index:2, feedback: "You got Brigadeiro! </br> Check out the recipe: </br> <a href='https://www.allrecipes.com/recipe/24052/brigadeiro/' target='_blank'><img src='brigadeiro.jpg' class='responsive'></a>"},
+{index:3, feedback: "You got Pastel! </br> Check out the recipe: </br> <a href='https://www.tastemade.com/videos/brazilian-street-fair-pastel' target='_blank'><img src='pastel.jpg' class='responsive'></a>" },
+{index:4, feedback: "You got Coxinha! </br> Check out the recipe: <a href='https://www.thespruceeats.com/coxinha-brazilian-chicken-croquettes-3029668' target='_blank'><img src='coxinha.png' class='responsive'></a>" },
+{index:5, feedback: "You got Requeijao! </br> Check out the recipe: </br> <a href='https://www.oliviascuisine.com/requeijao-brazilian-cream-cheese/' target='_blank'><img src='requeijao.jpg' class='responsive'></a>" }];
+
+
+
+for(i=0;i<scores.length; i++) {
+if(highest == scores[i].index) {
+document.getElementById("answer7").innerHTML = scores[i].feedback;
+}
+}
+
+return false; 
+}
+
+
+</script>
+
+</body>
+
+
+	
+
+</html>
+
